@@ -1,7 +1,6 @@
 import React, { useState } from "react";
 import { Grid, InputLabel, MenuItem, Select } from "@mui/material";
 import { TabList, TabPanel } from "@mui/lab";
-import Dates from "../Dates";
 import {
   Month,
   PlanTitle,
@@ -14,10 +13,11 @@ import {
   TabsWrapper,
   Wrapper,
 } from "./styles";
-import Tab from "../Tab";
+import Tab from "../../components/Tab";
+import Card from "../../components/Card";
+import Dates from "../../components/Dates";
 import burger from "../../assets/images/burger.jpg";
 import dinner from "../../assets/images/dinner.jpg";
-import Card from "../Card";
 
 const FoodCard = () => {
   const [value, setValue] = useState("1");

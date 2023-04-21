@@ -16,8 +16,8 @@ const Dates = () => {
       setActive(newValue);
     }
   };
-  const Node = ({date, day, locked}) => {
-    return <Day variant="h6" locked={locked} >
+  const Node = ({date, day, locked=false}) => {
+    return <Day variant="h6" locked={locked.toString()} >
       {locked &&
         <Badge>off</Badge>
       }
@@ -40,6 +40,7 @@ const Dates = () => {
             const cls = `${item.disabled ? 'disabled': item.locked ? "locked": active === item.date ? "active": ""}`
             return (
               <Wrapper
+                key={`${item.date}`}
                 label={<Node {...item} />}
                 className={cls}
                 onClick={() => {if(!item.locked){

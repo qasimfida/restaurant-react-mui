@@ -1,10 +1,10 @@
-import FoodCard from "./components/FoodCard";
 import Layout from "./components/Layout";
+import { Home } from "./containers";
 
 function App() {
   return (
     <Layout>
-      <FoodCard />
+      <Home />
     </Layout>
   );
 }
