@@ -9,7 +9,7 @@ ${({theme: {palette}})=> css`
   align-items: center;
   flex-wrap: no-wrap;
   box-sizing: border-box;
-  padding: 20px;
+  padding: 20px 0;
   background: ${palette.grey.light};
   width: 100%;
   min-height: calc( 100vh - 52px);
