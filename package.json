@@ -1,6 +1,6 @@
 {
-  "homepage": "https://qasimfida.github.io/restauran-app-mui",
-  "name": "restaurantmui",
+  "homepage": "https://qasimfida.github.io/restaurant-react-mui",
+  "name": "restaurant-react-mui",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
