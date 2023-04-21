@@ -86,7 +86,7 @@ const FoodCard = () => {
       <TabsWrapper >
         <StyledTabContext value={value}>
           <TabListContainer>
-            <TabList onChange={handleChange} aria-label="lab API tabs example">
+            <TabList onChange={handleChange} aria-label="lab API tabs meal">
               <StyledTab label={<Tab title="Lunch" src={burger} />} value="1" />
               <StyledTab
                 label={<Tab title="Dinner" src={dinner} />}

@@ -34,7 +34,7 @@ const Dates = () => {
           variant="scrollable"
           scrollButtons="auto"
           allowScrollButtonsMobile
-          aria-label="scrollable auto tabs"
+          aria-label="scrollable auto tabs days"
       >
           {dates.map((item, index) => {
             const cls = `${item.disabled ? 'disabled': item.locked ? "locked": active === item.date ? "active": ""}`
