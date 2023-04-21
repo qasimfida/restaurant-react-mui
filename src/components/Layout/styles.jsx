@@ -5,7 +5,7 @@ export const Header = styled(Box)`
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 8px 20px;
+    padding: 8px 0;
 `
 export const Main = styled('nav')`
     width: 100%;
